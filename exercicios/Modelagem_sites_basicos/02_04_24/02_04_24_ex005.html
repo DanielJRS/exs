@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="#" method="post">
+
+        <label for="nome">Primeiro Nome:</label>
+        <input type="text" id="nome" name="nome"><br>
+    
+        <label for="nome">Ultimo Nome:</label>
+        <input type="text" id="nome1" name="nome">
+        <br><br>
+
+        <label for="idData">Data De Nascimento</label><br>
+        <input type="date" name="DataNas" id="idData"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="Email" name="email" id="idEmail"><br><br>
+
+        <label for="idSexo1">Masculino</label>
+        <input type="radio" id="idSexo1" name="idSexo" value="M"><br>
+        <label for="idSexo2">Feminino</label>
+        <input type="radio" id="idSexo2" name="idSexo" value="F"><br>
+        <label for="idSexo3">Não Informar</label>
+        <input type="radio" id="idSexo3" name="idSexo" value="NIF">
+        <br> <br>
+
+        <h2>Escolaridade</h2>
+        <select name="Opções" id="idSel">
+            <option value=""></option>
+            <option value="Fundamental">Fundamental</option>
+            <option value="Ensino Médio">Ensino Médio</option>
+            <option value="Superio(Graduação)">Superio(Graduação)</option>
+            <option value="Pós-graduação">Pós-graduação</option>
+            <option value="Mestrado">Mestrado</option>
+            <option value="Doutorado">Doutorado</option>
+        </select>
+        <br><br>
+
+        <h2>Línguas estrangeiras</h2>
+        <label for="idI">Inglês</label>
+        <input type="checkbox" name="idlingu" id="idI">
+        <label for="idE">Espanhol</label>
+        <input type="checkbox" name="idlingu" id="idE">
+        <label for="idF">Francês</label>
+        <input type="checkbox" name="idlingu" id="idF">
+        <label for="idR">Russo</label>
+        <input type="checkbox" name="idlingu" id="idR">
+        <label for="idC">Chinês</label>
+        <input type="checkbox" name="idlingu" id="idC">
+        
+        <br><br>
+
+        <h2>Linguagens de programação que possui conhecimento</h2>
+        <label for="idCh">C</label>
+        <input type="checkbox" name="idLing" id="idCh" value="C">
+        <label for="idLing">Java</label>
+        <input type="checkbox" name="idLing" id="idjava" value="java">
+        <label for="idP">Python</label>
+        <input type="checkbox" name="idLing" id="idP" value="Python">
+        <br> <br>
+ 
+        <input type="submit" value="Enviar">
+        <br><br>
+        <input type="reset" value="Limpar">
+
+    </form>
+    
+</body>
+</html>

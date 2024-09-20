@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1724106558 source:c:\users\danie\documents\projects\exercicios\estrutura-de-dados\19-08-24\ex01.c
+	<stdio.h>
+	<stdlib.h>
+
+1724166178 source:c:\users\danie\documents\projects\exercicios\estrutura-de-dados\19-08-24\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1724110550 source:c:\users\danie\documents\projects\exercicios\estrutura-de-dados\19-08-24\ex02.c
+

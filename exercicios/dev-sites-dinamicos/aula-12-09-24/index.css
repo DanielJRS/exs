@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    background-color: rgb(144, 144, 144);
+    width: 1200px;
+    height: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#calculadora {
+    color: white;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas:
+    "visor visor visor visor"
+    "c c c limpar"
+    "sete oito nove multiplicar"
+    "quatro cinco seis menos"
+    "um dois tres mais"
+    "zero ponto igual igual";
+    gap: 10px;
+    padding: 2%;
+}
+
+.btn, .btn-igual {
+    background-color: rgb(91, 91, 91);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.btn:hover, .btn-igual:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+.btn-igual {
+    background-color: rgb(234, 98, 98);
+}
+
+.visor {
+    border-radius: 10px;
+    padding: 2%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#historico {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(55, 55, 55);
+    display: flex;
+    flex-flow: column;
+    font-size: 1.5em;
+    color: white;
+}

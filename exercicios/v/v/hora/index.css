@@ -1,0 +1,22 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-color: rgb(78, 78, 78);
+}
+
+.cabecalho, .container, footer {
+    width: 70%;
+    padding: 1%;
+    text-align: center;
+}
+
+.cabecalho {
+    margin-top: 1%;
+}
+
+.container {
+    background-color: whitesmoke;
+    border-radius: 5px;
+}

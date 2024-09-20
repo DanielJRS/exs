@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body background="img/mundi2.webp" align="center">
+    <h2>Formulário</h2>
+    <br>
+
+    <h3>Dados pessoais:</h3>
+    <form action="">
+
+        <label for="Nome">Nome:</label>
+        <input type="text" id="Nome" name="PNome">
+        <br><br>
+        <label for="Sobrenome">Sobrenome:</label>
+        <input type="text" id="Sobrenome" name="SNome">
+        <br><br>
+        <label for="Nascimento">Data de nascimento:</label>
+        <input type="date" name="nascimento" id="Nascimento">
+        <br><br>
+        <label for="emailContato">E-mail:</label>
+        <input type="email" name="email" id="emailContato">
+
+
+    <h3>Sexo:</h3>
+
+        <label for="Masculino">Homem</label>
+        <input type="radio" name="sexualidade" id="Masculino"><br>
+
+        <label for="Feminino">Mulher</label>
+        <input type="radio" name="sexualidade" id="Feminino"><br>
+        <br>
+    <h3>Senha</h3>
+
+        <label for="password">Crie uma senha:</label>
+        <input type="password" name="senha" id="password">
+
+        <br><br><label for="rpassword">Repita a senha:</label>
+        <input type="password" name="senha" id="rpassword">
+        <p>Inclua caracteres especiais em sua senha (@#$%-.,) para ter uma senha forte.<br>
+        <b>Senhas fortes ajudam a manter a segurança da sua conta.</b></p>
+
+        <input type="reset" value="Limpar campos">
+        <input type="submit" value="Criar conta">
+    </form>
+
+
+</body>
+</html>

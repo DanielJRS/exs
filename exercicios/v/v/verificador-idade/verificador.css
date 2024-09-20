@@ -1,0 +1,20 @@
+* {
+    margin: auto;
+}
+
+header, footer {
+    text-align: center;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.152);
+    padding: 2%;
+}

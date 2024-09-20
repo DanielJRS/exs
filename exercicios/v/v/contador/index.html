@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contador/index.css">
+    <script src="/contador/index.js" defer></script>
+    <title>Contador</title>
+</head>
+<body>
+
+    <header>
+        <h2>Contador de números</h2>
+    </header>
+
+    <section class="container">
+        <div class="container-conteudo">
+            <label for="valorInicial">Começar em: <input type="number" name="txtinicio" id="valorInicial" min="0"></label>
+
+            <label for="valorFinal">Terminar em: <input type="number" name="txtfim" id="valorFinal" max="50"></label>
+
+            <label for="passo">Passo: <input type="number" name="passo" id="passo" max="50"></label>
+
+            <input type="button" value="Contar" onclick="contar()">
+        </div>
+
+        <div class="container-resultado">
+            <h3 id="resultado">Preparando a contagem....</h3>
+        </div>
+
+    </section>
+
+    <footer>
+        &copy; DanDev
+    </footer>
+
+</body>
+</html>
